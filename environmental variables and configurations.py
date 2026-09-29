@@ -17,8 +17,8 @@ aoi_key = os.getenv("API_KEY")
 #DATABASE_URL = actual value
 
 #Python variable
-name = "ALVIN NENE"
+name = "Alvin"
 
 #Environmental variable
 
-NAME = ALVIN NENE
+NAME = Alvin
