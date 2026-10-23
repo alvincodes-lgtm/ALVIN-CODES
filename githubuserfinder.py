@@ -2,7 +2,7 @@ import requests
 
 username = input("Enter your GitHub username: ")
 
-url = f"https://github.com/users/alvincodes-lgtm"
+url = f"https://github.com{username}"
 
 response = requests.get(url)
 
@@ -17,4 +17,5 @@ if response.status_code == 200:
 elif response.status_code == 404:
     print("User not found")
 else:
-    print("something went wrong>>>")
+    print(f"something went wrong (Status code: {response.status_code})")
+    

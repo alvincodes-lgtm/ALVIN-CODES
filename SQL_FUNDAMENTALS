@@ -1,0 +1,29 @@
+SQL - structured query language
+
+students_id     name      course     year
+8769/uon/26     Job       Cs         2022
+
+The SELECT statement
+
+SELECT * FROM students;
+SELECT name FROM students;
+SELECT name, course FROM students;
+
+Filtering with WHERE
+
+SELECT * FROM students WHERE course - "computer science"
+
+
+=
+!- or <>
+<
+>
+<=
+AND
+OR
+LIKE
+
+Sorting with ORDER BY
+
+SELECT * FROM students ORDER BY name DESC:
+SELECT * FROM students ORDER BY name ASC, name ASC:

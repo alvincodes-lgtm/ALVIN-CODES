@@ -1,0 +1,36 @@
+#students
+
+students = [
+    ["std1", "Alvin Munene", "IT"],
+    ["std2", "Elvis Mwangi", "CS"],
+    ["std2", "Lynn Mwendwa", "CT"],
+]
+
+# tables 
+ #it organises related information into columns and rows
+     student_id      full_name       course
+     123/uon/2026    Alvin Munene    IT
+     456/uon/2026    Elvis Mwangi    CS
+     789/uon/2026    Lynn Mwendwa    CT
+
+
+
+#rows 
+ #a row represents one complete record
+
+
+#columns
+ #a column represents a category of information
+ #a column reprensents a type of field or attribute
+
+ #Database schema and keys 
+ #database schema describes how a database is organized
+
+ Table:      students
+ Student_id -- Integer
+ Full_name --  Text
+ email --      Text
+ course --     Text
+ year --       Integer
+ height --     real
+ passport --   Blob
